@@ -67,10 +67,10 @@ background-color: #fff;
 
 }
 .mekanisme{
-    background-image: url('assets/Mekanisme.png');
-    background-color: #007CBD;
+    background: rgb(32,149,228);
+    background: linear-gradient(180deg, rgba(32,149,228,1) 0%, rgba(67,200,242,1) 51%, rgba(32,149,228,1) 100%);
     background-size: cover;
-    min-height: 60vh;
+    min-height: 50vh;
     position: relative;
     color: black;
     height: auto;
@@ -94,6 +94,10 @@ h2{
     font-size: 40px;
     font-weight: 800;
     line-height: 20px;
+}
+
+.h2-meka{
+padding-top: 10px;
 }
 
 .btn{
@@ -638,5 +642,14 @@ font-family: Montserrat;
 font-size: 12px;
 font-style: normal;
 font-weight: 500;
+line-height: normal;
+}
+
+.form-control{
+    color: #071424;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
 line-height: normal;
 }
