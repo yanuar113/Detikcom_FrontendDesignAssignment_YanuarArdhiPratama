@@ -576,32 +576,7 @@ h2#register{
               user-select: none; /* Non-prefixed version, currently
                                     supported by Chrome and Opera */
   }
-  @keyframes flickerAnimation {
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-o-keyframes flickerAnimation{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-moz-keyframes flickerAnimation{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  @-webkit-keyframes flickerAnimation{
-    0%   { opacity:1; }
-    50%  { opacity:0; }
-    100% { opacity:1; }
-  }
-  .animate-flicker {
-     -webkit-animation: flickerAnimation 1s infinite;
-     -moz-animation: flickerAnimation 1s infinite;
-     -o-animation: flickerAnimation 1s infinite;
-      animation: flickerAnimation 1s infinite;
-  }
+ 
   i.fa {
     color:#cbdaef;
     display: inline-block;
@@ -611,26 +586,7 @@ h2#register{
     font-size:140%;
     margin-right:20px;
   }
-  .ready {
-    color:#56f9ba!important;
-  }
-  i.ready {
-    border-color:#56f9ba!important;
-  }
-  .slow-spin {
-    -webkit-animation: fa-spin 6s infinite linear;
-    animation: fa-spin 6s infinite linear;
-  }
-  @keyframes fa-spin {
-    0% {
-      -webkit-transform: rotate(0deg);
-      transform: rotate(0deg);
-    }
-    100% {
-      -webkit-transform: rotate(360deg);
-      transform: rotate(360deg);
-    }
-  }
+  
   .content {
     background-color: whitesmoke;
     min-height: 50vh; /* Ini akan membuat konten selalu mencakup setidaknya seluruh ketinggian viewport */
